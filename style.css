@@ -24,6 +24,7 @@ header{
   align-items:center;
   text-align:center;
   color:white;
+  text-shadow:0 2px 10px rgba(0,0,0,.5);
 }
 
 nav{
@@ -33,18 +34,21 @@ nav{
   text-align:center;
 }
 
-.logo{
-  font-size:32px;
-  letter-spacing:12px;
+ .logo{
+  font-size:34px;
+  letter-spacing:14px;
   font-weight:700;
-  margin-bottom:20px;
+  margin-bottom:18px;
+  text-shadow:0 2px 12px rgba(0,0,0,.45);
 }
+
 
 .menu{
   display:flex;
   justify-content:center;
-  gap:40px;
-  margin-top:20px;
+  gap:34px;
+  margin-top:14px;
+  text-shadow:0 2px 10px rgba(0,0,0,.45);
 }
 
 .hero{
