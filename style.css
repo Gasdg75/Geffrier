@@ -45,6 +45,7 @@ nav{
 
 .menu{
   display:flex;
+  flex-direction:row;
   justify-content:center;
   gap:34px;
   margin-top:14px;
@@ -69,8 +70,11 @@ nav{
 .btn{
   display:inline-block;
   padding:16px 40px;
-  border:1px solid white;
+  border:2px solid white;
   color:white;
+  background:rgba(0,0,0,.25);
+  font-size:28px;
+  font-weight:600;
 }
 
 section{
